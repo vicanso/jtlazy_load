@@ -1,5 +1,5 @@
 {
   "name" : "jtlazy_load",
-  "version" : "0.0.1",
-  "main" : "index.js"
+  "version" : "0.0.3",
+  "main" : "jtlazy_load.js"
 }
