@@ -1,10 +1,11 @@
+"use strict"
 moduleName = 'jtlazy_load'
 module = GLOBAL_MODULES[moduleName] = 
   id : moduleName
 exports = module.exports = {}
 
-require '/components/jquery'
-require '/components/underscore'
+require 'jquery'
+require 'underscore'
 _ = window._
 $ = window.jQuery
 

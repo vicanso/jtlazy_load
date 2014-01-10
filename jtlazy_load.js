@@ -1,4 +1,6 @@
 (function() {
+  "use strict";
+
   var $, exports, module, moduleName, _;
 
   moduleName = 'jtlazy_load';
@@ -9,9 +11,9 @@
 
   exports = module.exports = {};
 
-  require('/components/jquery');
+  require('jquery');
 
-  require('/components/underscore');
+  require('underscore');
 
   _ = window._;
 
