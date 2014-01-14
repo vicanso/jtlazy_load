@@ -64,6 +64,7 @@
       }, 300);
       return bindingEventObj.scroll(loadImage);
     };
+    load($('.directive-lazyload'));
     exports.load = load;
   });
 
