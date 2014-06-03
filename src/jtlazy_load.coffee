@@ -50,6 +50,7 @@ define 'jtLazyLoad', ['jquery', 'underscore'], (require, exports) ->
         bindingEventObj.off 'scroll', loadImage
     , 300
     bindingEventObj.scroll loadImage
+    loadImage()
 
 
   # 初始化定义了指令的 directive-lazyload的元素

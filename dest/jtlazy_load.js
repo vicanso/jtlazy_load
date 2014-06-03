@@ -60,7 +60,8 @@
           return bindingEventObj.off('scroll', loadImage);
         }
       }, 300);
-      return bindingEventObj.scroll(loadImage);
+      bindingEventObj.scroll(loadImage);
+      return loadImage();
     };
     load($('.directive-lazyload'));
     exports.load = load;
