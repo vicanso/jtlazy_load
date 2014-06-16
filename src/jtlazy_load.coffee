@@ -24,7 +24,7 @@ define 'jtLazyLoad', ['jquery', 'underscore'], (require, exports) ->
     
     # 保存图片的相关信息[{top : Integer, obj : jQuery}]
     lazyLoadItemInfos = getLazyLoadItemInfos()
-
+    return if !lazyLoadItemInfos?.length
 
 
     # 加载图片的函数，由scroll触发

@@ -31,6 +31,9 @@
         }));
       };
       lazyLoadItemInfos = getLazyLoadItemInfos();
+      if (!(lazyLoadItemInfos != null ? lazyLoadItemInfos.length : void 0)) {
+        return;
+      }
       loadImage = _.debounce(function() {
         var containerObj, maxTop, top;
         containerObj = scrollObj || $(document);
